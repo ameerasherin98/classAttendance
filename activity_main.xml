@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+        android:inputType="textCapWords"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="3dp"/>
+    <EditText
+        android:id="@+id/student_sem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Semester"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="3dp" />
+    <EditText
+        android:id="@+id/student_dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Department"
+        android:inputType="textCapCharacters"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="3dp"/>
+    <EditText
+        android:id="@+id/sub_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the no.of theory subjects"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="3dp"/>
+    <EditText
+        android:id="@+id/lab_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the no.of labs"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="3dp"/>
+
+    <Button
+        android:id="@+id/button_step2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:onClick="intent"/>
+
+
+</LinearLayout>
